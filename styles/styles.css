@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    font-family: 'inter';
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.social-links-card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.username {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.bio {
+    font-size: 14px;
+    margin: 25px 0;
+}
+
+.social-links-button {
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 1px;
+}
+
+.social-links-button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: #000;
+}
+
+footer {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../assets/fonts/static/Inter-Regular.ttf');
+}
